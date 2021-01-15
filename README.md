@@ -24,7 +24,7 @@ source venv/bin/activate
 
 Clone the git repo, then install the requirements with pip
 ```
-git clone https://github.com/plotly/dash-svm.git
+git clone https://github.com/RiahiFedi/python-dash-stacking.git
 cd dash-svm
 pip install -r requirements.txt
 ```
