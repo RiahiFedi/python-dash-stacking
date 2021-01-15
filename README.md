@@ -1,15 +1,4 @@
-# Support Vector Machine (SVM) Explorer [![GitHub license](https://img.shields.io/github/license/plotly/dash-svm.svg)](https://github.com/plotly/dash-svm/blob/master/LICENSE.md) [![Mentioned in Awesome Machine Learning](https://awesome.re/mentioned-badge.svg)](https://github.com/josephmisiti/awesome-machine-learning)
 
-> ### This app has been moved [here](https://github.com/plotly/dash-sample-apps/tree/master/apps/dash-svm). This repo is likely outdated and will not be updated.
-
-
-This is a learning tool and exploration app made using the Dash interactive Python framework developed by [Plotly](https://plot.ly/).
-
-Dash abstracts away all of the technologies and protocols required to build an interactive web-based application and is a simple and effective way to bind a user interface around your Python code. To learn more check out our [documentation](https://plot.ly/dash).
-
-Try out the [demo app here](https://dash-gallery.plotly.host/dash-svm/).
-
-![animated1](images/animated1.gif)
 
 
 ## Getting Started
@@ -52,8 +41,6 @@ This app is fully written in Dash + scikit-learn. All the components are used as
 
 In addition to creating models, scikit-learn is used to generate the datasets you see, as well as the data needed for the metrics plots.
 
-### What is an SVM?
-An SVM is a popular Machine Learning model used in many different fields. You can find an [excellent guide to how to use SVMs here](https://www.csie.ntu.edu.tw/~cjlin/papers/guide/guide.pdf).
 
 ## Built With
 * [Dash](https://dash.plot.ly/) - Main server and interactive components
@@ -68,6 +55,7 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduc
 
 * **Xing Han Lu** - *Initial Work* - [@xhlulu](https://github.com/xhlulu)
 * **Matthew Chan** - *Code Review* - [@matthewchan15](https://github.com/matthewchan15)
+* **Fedi Riahi** - Stacking and Blending for Peaks Prediction
 
 See also the list of [contributors](https://github.com/plotly/dash-svm/contributors) who participated in this project.
 
@@ -75,9 +63,3 @@ See also the list of [contributors](https://github.com/plotly/dash-svm/contribut
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
-## Acknowledgments
-The heatmap configuration is heavily inspired from the [scikit-learn Classification Comparison Tutorial](http://scikit-learn.org/stable/auto_examples/classification/plot_classifier_comparison.html). Please go take a look!
-
-The idea of the [ROC Curve, the Matrix Pie Chart and Thresholding](https://github.com/nicolaskruchten/dash-roc) came from @nickruchten. The app would not have been as complete without his insightful advice.
-
-## Screenshots
